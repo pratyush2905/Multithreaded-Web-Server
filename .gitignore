@@ -1,0 +1,10 @@
+# Ignore JMeter test plans
+*.jmx
+
+# Optional: ignore IDE and build files
+*.class
+*.log
+*.iml
+.idea/
+target/
+out/
