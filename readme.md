@@ -128,22 +128,18 @@ These insights directly contribute to my ability to build **robust, performant b
 ### 🔧 Compilation
 
 # 📦 Clone the repository
-
 git clone https://github.com/pratyush2905/Multithreaded-Web-Server.git
 cd Multithreaded-Web-Server
 
 # 🔧 Compile all server implementations
-
 javac SingleThreaded/Server.java MultiThreaded/Server.java ThreadPool/Server.java
 
 # 🚀 Run the Single-threaded server
-
 java -cp SingleThreaded Server
 
 # 🚀 Run the Multi-threaded server
-
 java -cp MultiThreaded Server
 
 # 🚀 Run the Thread pool server
-
 java -cp ThreadPool Server
+
