@@ -134,12 +134,11 @@ cd Multithreaded-Web-Server
 ### 🔧 Compile all server implementations
 javac SingleThreaded/Server.java MultiThreaded/Server.java ThreadPool/Server.java
 
-### 🚀 Run the Single-threaded server
+### 🚀 Run the serves 
+
 java -cp SingleThreaded Server
 
-### 🚀 Run the Multi-threaded server
 java -cp MultiThreaded Server
 
-### 🚀 Run the Thread pool server
 java -cp ThreadPool Server
 
